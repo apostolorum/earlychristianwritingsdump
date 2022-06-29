@@ -1,0 +1,20 @@
+
+Body {background: #F7F8D1;}
+
+Blockquote: {margin-left: 0.4in; margin-right: 0.4in; font-size: 90%}
+Address: {text-align: right; font-style: italic; margin-top: 6pt;}
+
+P.Body {text-indent: 0.4in; margin-top: 0pt; }
+P.Unindented {margin-top: 0in; }
+P.Body2 {text-indent: 0.4in; margin-top: 12pt;}
+P.Unindented2 {margin-top: 12pt;}
+P.ChapterSummary {margin-left: 0.4in; margin-right: 0.4in; 
+	font-size: 110%; text-align: center; }
+
+P.List1 {margin-top: 0pt; margin-left: 1in; text-indent: -0.25in; }
+P.List1a {margin-top: 8pt; margin-left: 1in; 
+	text-indent: -0.25in; }
+P.List2 {margin-top: 0pt; margin-left: 1in; }
+
+
+P.HeaderInfo {font-family: Ariel, Helvetica; background: #FFEE77;}

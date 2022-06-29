@@ -1,0 +1,238 @@
+body { 
+  background-color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+div {
+  margin: 0px; padding: 0px;
+}
+
+h1, h2, h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#whitetoplayer, #headlayer, #infolayer {
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+  max-width: 1232px; width: 100%;
+  z-index: 1;
+}
+
+#headlayer {
+  position: absolute;
+  top: 39px;
+  height: 112px;
+  background-image: url(header.jpg); background-repeat: no-repeat; background-position: center top;
+}
+
+#infolayer {
+  position: relative;
+  top: 151px;
+/*  background-image: url(main.jpg); background-repeat: repeat; */
+}
+
+#headleft, #headright {
+  position: absolute;
+  top: 0px;
+  width: 36px; height: 112px;
+  margin: 0px; padding: 0px;
+  background-image: url(header-side.jpg); background-repeat: no-repeat; z-index: 2;
+}
+
+#headleft {
+  left: 0px;
+}
+
+#headright {
+  right: 0px;
+}
+
+#infoleft, #inforight {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 36px;
+  background-image: url(main-side.jpg); background-repeat: repeat-y; z-index: 3;
+}
+ 
+#infoleft {
+  left: 0px;
+}
+ 
+#inforight {
+  right: 0px;
+}
+ 
+#textboundingbox {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#footer {
+  position: relative; top: 0px; left: 0px; right: 0px; height: 32px; z-index: 4;
+}
+
+#footer {
+  position: relative; top: 0px; left: 0px; right: 0px; height: 32px; z-index: 4;
+}
+
+#footleft, #footright {
+  z-index: 5; position: absolute; top: 0px; height: 32px; background-repeat: no-repeat; background-position: left;
+}
+
+#footleft {
+  background-image: url("foot-left.jpg");
+  left: 0px;
+  right: 40px;
+}
+
+#footright {
+  background-image: url("foot-right.jpg");
+  right: 0px;
+  width: 40px;
+}
+
+#whitetoplayer {
+  position: absolute;
+  top: 0px;
+	height: 100px;
+  height: 50px;
+}
+
+#breadcrumbs {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+  margin-top: auto; margin-bottom: auto;
+  position: absolute;
+  left: 10px; top: 0px;
+  height: 39px; width: 480px;
+	font-size: 12px;
+  text-align: left;
+}
+
+#breadcrumbs p {
+  height: 39px;
+  margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	text-decoration: none;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+#breadcrumbs p span {
+  top: 6px;
+	height: 16px;
+}
+
+#buythecd {
+  float: right;
+  padding-top: 0px;
+  padding-right: 5px;
+	padding-bottom: 0px;
+  width: 108px;
+  height: 39px;
+}
+
+a img {
+  border: 0px;
+}
+
+span.arrowchar, span.ce {
+	font-size: smaller;
+}
+
+
+div.forwardback {
+  position: relative;
+  margin: 0px;
+	padding: 5px 0px 0px 0px;
+	font-size: 12px;
+	font-family: Arial,Helvetica,sans-serif;
+}
+p.beg {
+  position: absolute;
+  margin: 0px;
+	padding-top: 2px;
+  text-align: left;
+	font-size: 10px;
+	vertical-align: middle;
+}
+p.chronological {
+  margin: 0px;
+  text-align: right;
+}
+
+
+#textname {
+  display: block; margin: 0px; padding-top: 6px; padding-bottom: 2px;
+  text-align: center;
+	font-size: 32px;
+	clear: both;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #71560C;
+	line-height: 1.25;
+}
+
+blockquote p {
+	line-height: 1.3;
+	text-align: left;
+	color: #222222;
+}
+
+span.greek {
+  font-family: Symbol;
+}
+
+#whitebottomlayer {
+  position: relative;
+  top: 0px;
+  background-color: white;
+  z-index: 6;
+  max-width: 1232px; width: 100%;
+}
+
+#copyrightnotice {
+  display: block; padding: 0px; margin: 0px;
+  text-align: center;
+}
+
+#toprightad {
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #71560C;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.breadcrumb {
+	vertical-align: absolutemiddle;
+	text-align: left;
+	padding-left: 9px;
+	font-size: 12px;
+	color: #666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.footer {
+	font-size: 12px;
+	text-align: center;
+	color: #666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}

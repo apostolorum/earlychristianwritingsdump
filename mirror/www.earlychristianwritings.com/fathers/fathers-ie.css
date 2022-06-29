@@ -1,0 +1,18 @@
+BODY { font-size : 10pt; }
+
+P, PRE, SPAN, DIV, TABLE, TD, TR, TH, UL, OL { font-size : 10pt; }
+
+PRE { font-size : 9pt; }
+
+H1, P.BIG, P.TITLE { font-size : 24pt; }
+
+H2 { font-size : 18pt; }
+
+SPAN.bigger, P.bigger { font-size : 12pt; }
+
+SPAN.smallish, SPAN.smaller, SPAN.less, P.smallish, P.smaller, P.less { font-size : 9.5pt; }
+
+SPAN.small, P.small, SUP { font-size : 8pt; }
+
+SPAN.pb, SPAN.superscript,SPAN.subscript { font-size: smaller }
+SPAN.cnote { font-size: small; } 
